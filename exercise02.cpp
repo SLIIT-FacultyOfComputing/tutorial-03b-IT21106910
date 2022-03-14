@@ -29,5 +29,9 @@ int main() {
     
     return 0;
 }
+int volume(int boxHeight, int boxWidth, int boxLength)
+{
+  return boxHeight * boxWidth * boxLength;
+}
 
 // Implement the Volume() function here
